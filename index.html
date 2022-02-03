@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <div id="board">
-<h1>Tic Tac Toe</h1>
-<div class="row">
-<div class="top left"></div>
-<div class="top middle"></div>
-<div class="top right"></div>
+        <h1>Tic Tac Toe</h1>
+        <div class="row">
+            <div class="top left" data-cellnumber="0"></div>
+            <div class="top middle" data-cellnumber="1"></div>
+            <div class="top right" data-cellnumber="2"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="middle left" data-cellnumber="3"></div>
+            <div class="middle" data-cellnumber="4"></div>
+            <div class="middle right" data-cellnumber="5"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="bottom left" data-cellnumber="6"></div>
+            <div class="bottom middle" data-cellnumber="7"></div>
+            <div class="bottom right" data-cellnumber="8"></div>
+
+        </div>
+
+
+
+    </div>
+
+
+<div class="winning message" id="winningMessage">
+    
+<h1 id="data-winning-message-text"></h1>
 
 </div>
 
-<div class="row">
-<div class="middle left"></div>
-<div class="middle"></div>
-<div class="middle right"></div>
-
-</div>   
-
-<div class="row">
-<div class="bottom left"></div>
-<div class="bottom middle"></div>
-<div class="bottom right"></div>
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="TicTacToe.js"></script>
 
 </body>
+
 </html>

@@ -8,6 +8,7 @@ border-top: 1px solid black;
 float: left;
 height: 100px;
 width: 100px;
+font-size: 5em;
 }
 
 .row{
@@ -33,4 +34,9 @@ border-right: 1px solid black;
 
 .right {
     border-left: 1px solid black; 
+}
+
+body {
+background-image: 
+url("https://1.bp.blogspot.com/-DQMxYswhSkU/XnH3K0HorCI/AAAAAAAAEtw/eD-_kjIATrU3Dj63l8u0E8d19kYOApGZgCLcBGAsYHQ/w1200-h630-p-k-no-nu/Anime%2BCave%2BBackground%2B01.jpg")
 }
